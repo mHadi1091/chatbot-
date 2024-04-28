@@ -50,8 +50,11 @@ int main(){
           default: cout<<"I dont know the language!!"<<endl;
           break;
       }
-      
-}
+
+    return 0;
+
+   }
+
 //loop based game 
 
 ```
