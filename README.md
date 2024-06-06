@@ -111,7 +111,7 @@ void numG()
 
     cout<<"Player 2 you made "<<guesschance<<" Attemps!"<<endl;
 }
-    
+    }
 
 void exitG(){
     cout<< "you have exited the game";
