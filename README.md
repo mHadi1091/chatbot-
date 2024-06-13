@@ -118,5 +118,5 @@ void exitG(){
 }
 
 
-
+// the code is not working properly at the moment and the main cause is the game is not merged accordingly to the code 
 ```
