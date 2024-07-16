@@ -132,3 +132,10 @@ void chatEnd(string name){
 }
 
 ```
+
+# add ons 
+* ask abt likes and dislikes
+* goals
+# game 
+* head tail
+
