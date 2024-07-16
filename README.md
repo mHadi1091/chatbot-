@@ -8,11 +8,11 @@ void numG();
 void exitG();
 void mainG();
 int main(){
-    //introduction from user
+  //introduction from user
     string name;
-    cout<<"hi user plzz introduce yourself!!"<<endl;
-     cout<<"lets start with ur name -->:";
-      cin>>name;
+     cout<<"hi user plzz introduce yourself!!"<<endl;
+      cout<<"lets start with ur name -->:";
+        cin>>name;
        cout<<"hi "<<name<<endl;
     // ask for more info
      cout<<"well "<<name<<" tell me more about yourself"<<endl;
@@ -53,15 +53,16 @@ int main(){
           default: cout<<"I dont know the language!!"<<endl;
           break;
       }
-      char choice; 
-        cout<<"do u want to play a game ?? y/n  \n";
-        cin >> choice;
-        if (choice = 'y' || 'Y'){
-           mainG();        
-         if (choice = 'n' || 'N'){  
-          chatEnd(name);
-         }
-        }
+      
+      char choice;
+        cout << "Do you want to play a game ??  \n y/n  \n";
+         cin >> choice; 
+       if (choice == 'y' || choice == 'Y'){
+         mainG();        
+    } else if (choice == 'n' || choice == 'N'){  
+      chatEnd(name);
+    }
+        
     return 0;
 }
    
@@ -102,21 +103,21 @@ void numG()
 
         if (guess < number)
         {
-            cout<<"Player 2: The number is too low."<<endl;
+            cout<<" The number is too low."<<endl;
         }
         else if (guess > number)
         {
-            cout<<"Player 2: The number is too high."<<endl;
+            cout<<" The number is too high."<<endl;
         }
         else
         {
-            cout<<"Player 2: You are correct! Congratulations!"<<endl;
+            cout<<" You are correct! Congratulations!"<<endl;
         }
 
         guesschance++;
     }
 
-    cout<<"Player 2 you made "<<guesschance<<" Attemps!"<<endl;
+    //cout<<" you made "<<guesschance<<" Attemps!"<<endl;
 }
   //  }
 
@@ -129,4 +130,5 @@ void chatEnd(string name){
  cout<<" see u next time !! ";
     
 }
+
 ```
