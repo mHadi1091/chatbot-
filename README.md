@@ -59,6 +59,7 @@ int main(){
          cin >> choice; 
        if (choice == 'y' || choice == 'Y'){
          mainG();        
+         cout<<" thanks for ur time " << name <<" see u next time :)";
     } else if (choice == 'n' || choice == 'N'){  
       chatEnd(name);
     }
@@ -130,12 +131,4 @@ void chatEnd(string name){
  cout<<" see u next time !! ";
     
 }
-
 ```
-
-# add ons 
-* ask abt likes and dislikes
-* goals
-# game 
-* head tail
-
