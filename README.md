@@ -29,10 +29,11 @@ int main(){
        cout<<"ohh so your an adult"<<endl;
     // ask for nationality
     string national;
-     cout<<"well "<<name<<" what's your nationality:";
+     cout<<"well "<<name<<" where u belong from (country) :";
       cin>>national;
         cout<<"good to hear about you indeed "<<national<<" is a great place.\n";
       //ask the permission to say something in their native language
+      if (national == "pakistan"){
       int lang;
       cout<<"what is ur native language"<<endl;
       cout<<"1.(urdu)"<<endl;
@@ -53,7 +54,7 @@ int main(){
           default: cout<<"I dont know the language!!"<<endl;
           break;
       }
-      
+        }
       char choice;
         cout << "Do you want to play a game ??  \n y/n  \n";
          cin >> choice; 
@@ -131,4 +132,5 @@ void chatEnd(string name){
  cout<<" see u next time !! ";
     
 }
+
 ```
