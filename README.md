@@ -95,8 +95,6 @@ void numG()
     int guess ;
     int guesschance=0;
 
-//    cout<<" Enter a number: "<<endl;
-  //  cin>>number;
 
     while (number != guess){
 
