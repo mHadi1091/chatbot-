@@ -1,5 +1,6 @@
 # chat - bot (basic level)
 ```
+// upgrade required in the code > functions 
 #include <iostream>
 #include <string>
 #include <ctime>
